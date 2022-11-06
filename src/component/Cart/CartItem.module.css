@@ -1,0 +1,11 @@
+.item img {
+  width: 100%;
+}
+
+.item div {
+  text-align: center;
+  padding: 1em;
+}
+.auto-margin {
+  margin: 0 auto;
+}

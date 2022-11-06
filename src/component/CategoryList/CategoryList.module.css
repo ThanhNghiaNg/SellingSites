@@ -1,0 +1,15 @@
+.category-list {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.header {
+  text-transform: uppercase;
+
+  margin-bottom: 2em;
+  font-style: italic;
+  font-weight: normal;
+}
+.header h5 {
+  color: var(--text-ligth-gray);
+}

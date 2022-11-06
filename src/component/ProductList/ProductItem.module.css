@@ -1,0 +1,27 @@
+.product {
+  cursor: pointer;
+  animation: larger 1s;
+  font-style: italic;
+}
+.product:hover .img-product {
+  opacity: 0.5;
+}
+
+.img-product {
+  width: 100%;
+}
+.info {
+  text-align: center;
+}
+.info:last-child p {
+  color: var(--text-ligth-gray);
+}
+
+@keyframes larger {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

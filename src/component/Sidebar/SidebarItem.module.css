@@ -1,0 +1,8 @@
+.item{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.active{
+    color: goldenrod;
+}

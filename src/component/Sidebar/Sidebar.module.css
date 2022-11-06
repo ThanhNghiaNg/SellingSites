@@ -1,0 +1,14 @@
+.sidebar {
+  font-style: italic;
+}
+
+.item-padding{
+    padding: 0.3em 1em;
+}
+.title{
+    text-transform: uppercase;
+}
+
+/* a:active {
+  color: goldenrod;
+} */

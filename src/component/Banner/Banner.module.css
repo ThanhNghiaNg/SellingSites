@@ -1,0 +1,31 @@
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+
+.description {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+  font-style: italic;
+}
+
+.description h4,
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 0;
+}
+.description h4 {
+  color: var(--text-ligth-gray);
+  margin-bottom: 0.4em;
+}
+
+.description button {
+  font-style: italic;
+  padding: 0.5em 2em;
+}

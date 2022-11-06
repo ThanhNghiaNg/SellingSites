@@ -1,0 +1,24 @@
+.more-info {
+  font-style: italic;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact input,
+button {
+  height: 4em;
+}
+
+.contact input {
+  width: 60%;
+  border: solid 1px var(--text-ligth-gray);
+  padding: 0 2em;
+}
+
+.contact button {
+  padding: 0 2em;
+}

@@ -1,0 +1,122 @@
+.box {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+.chat {
+  position: fixed;
+  bottom: 5em;
+  right: 5em;
+
+  width: 22em;
+  height: 25em;
+  background-color: white;
+  box-shadow: 3px 3px 10px gray;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: scale(0.4) skew(15deg);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1) skew(0);
+    opacity: 0.75;
+  }
+  75% {
+    transform: skew(-3deg, 3deg);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1) skew(0);
+    opacity: 1;
+  }
+}
+
+.message-container {
+  overflow-y: scroll;
+  padding: 1em;
+  font-style: italic;
+  height: 100%;
+}
+.bar {
+  display: flex;
+  padding: 1em;
+}
+.toggle-mess {
+  background-color: var(--text-dark-gray);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+.send {
+  width: fit-content;
+  height: fit-content;
+  color: var(--primary-cyan);
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+.mini-logo {
+  background-color: var(--bg-ligth-gray);
+  width: fit-content;
+  height: fit-content;
+  padding: 0.1em 0.4em;
+}
+.mini-logo p {
+  font-size: 12px;
+  margin: 0;
+  font-style: italic;
+}
+.user-message,
+.admin-message,
+.admin-message p {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.2em 0.8em;
+  margin-bottom: 0.2em;
+  border-radius: 6px;
+}
+.user-message {
+  background-color: var(--primary-cyan);
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+  color: aliceblue;
+}
+.admin-message {
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+.admin-message span {
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 50%;
+  background-color: var(--bg-ligth-gray);
+}
+.admin-message p {
+  background-color: var(--bg-ligth-gray);
+  padding: 0.2em 0.8em;
+}
+
+.effect {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  border: none;
+}

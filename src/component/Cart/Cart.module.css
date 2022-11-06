@@ -1,0 +1,27 @@
+.cart {
+  font-style: italic;
+  margin-bottom: 4em;
+}
+.header {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+  font-weight: 400;
+}
+.cart button {
+  background-color: var(--light-gray);
+  padding: 0.25em 1em;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+.cart button p{
+    margin: 0;
+}
+.cart button p span {
+  padding: 0 0.5em;
+}
+.no-border {
+  border: none;
+}

@@ -1,0 +1,59 @@
+.detail {
+  margin-top: 4em;
+  font-style: italic;
+}
+.imgs-product {
+  width: 100%;
+  margin: 0.5em;
+}
+
+.no-style {
+  background-color: white;
+  border: none;
+  padding: 0;
+  height: 100%;
+}
+.add-form {
+  display: flex;
+  align-items: center;
+  gap: 0.1em;
+  height: 2em;
+  border: solid 1px #adb5bd;
+  width: fit-content;
+}
+.add-form label {
+  padding: 0 4em;
+  padding-left: 2em;
+  height: 100%;
+}
+.add-form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-form input{
+  width: 1.5em;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.add-cart-button {
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100%;
+  margin-left: 1em;
+}
+.description {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.description button {
+  padding: 0.5em 2em;
+  height: 100%;
+}
+.content-description p {
+  margin: 0.7em 0;
+}
+.content-description:last-child div p {
+  margin: 0.3em;
+}

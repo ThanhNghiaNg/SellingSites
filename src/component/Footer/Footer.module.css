@@ -1,0 +1,24 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #111111;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  /* margin-top: 2em; */
+}
+.grid-col {
+  display: flex;
+  gap: 0.5em;
+  flex-direction: column;
+}
+.grid-col a {
+  text-decoration: none;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.grid-col p:first-child {
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  color: white;
+}

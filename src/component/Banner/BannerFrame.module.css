@@ -1,0 +1,10 @@
+.banner-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3em;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: #f8f9fa;
+    margin-bottom: 4em;
+}

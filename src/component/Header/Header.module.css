@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.group a:link,
+.group a:hover,
+.group a:active,
+a.active {
+  color: goldenrod;
+}
+.group {
+  display: flex;
+  gap: 1em;
+  padding: 0 0.5em;
+}
+.nav-icon {
+  display: flex;
+  gap: 0.4em;
+}
+.icon-header {
+  color: gray;
+}
+
+.logout {
+  cursor: pointer;
+}
